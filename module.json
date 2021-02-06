@@ -19,7 +19,7 @@
 	"packs": [{
 			"name": "my_monstry",
 			"module": "my-compendium",
-			"label": "my-compendium",
+			"label": "my_monstry",
 			"system": "dnd5e",
 			"path": "./packs/My_monstry.db",
 			"entity": "Actor"
@@ -27,7 +27,7 @@
 		{
 			"name": "my_podklassy",
 			"module": "my-compendium",
-			"label": "my-compendium",
+			"label": "my_podklassy",
 			"system": "dnd5e",
 			"path": "./packs/My_podklassy.db",
 			"entity": "Item"
@@ -35,7 +35,7 @@
 		{
 			"name": "my_predmety",
 			"module": "my-compendium",
-			"label": "my-compendium",
+			"label": "my_predmety",
 			"system": "dnd5e",
 			"path": "./packs/My_predmety.db",
 			"entity": "Item"
@@ -43,7 +43,7 @@
 		{
 			"name": "my_umeniya",
 			"module": "my-compendium",
-			"label": "my-compendium",
+			"label": "my_umeniya",
 			"system": "dnd5e",
 			"path": "./packs/My_umeniya.db",
 			"entity": "Item"

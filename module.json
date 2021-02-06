@@ -1,5 +1,5 @@
 {
-	"name": "MyCompendium",
+	"name": "My-Compendium",
 	"title": "MyCompendium",
 	"description": "For easy game",
 	"systems": ["dnd5e"],
@@ -21,7 +21,7 @@
 	"packs": [
 		{
 			"name": "My_monstry",
-			"module": "MyCompendium",
+			"module": "My-Compendium",
 			"label": "MyCompendium",
 			"system": "dnd5e",
 			"path": "./packs/My_monstry.db",
@@ -29,7 +29,7 @@
 		},
 		{
 			"name": "My_podklassy",
-			"module": "MyCompendium",
+			"module": "My-Compendium",
 			"label": "MyCompendium",
 			"system": "dnd5e",
 			"path": "./packs/My_podklassy.db",
@@ -37,7 +37,7 @@
 		},
 		{
 			"name": "My_predmety",
-			"module": "MyCompendium",
+			"module": "My-Compendium",
 			"label": "MyCompendium",
 			"system": "dnd5e",
 			"path": "./packs/My_predmety.db",
@@ -45,7 +45,7 @@
 		},
 		{
 			"name": "My_umeniya",
-			"module": "MyCompendium",
+			"module": "My-Compendium",
 			"label": "MyCompendium",
 			"system": "dnd5e",
 			"path": "./packs/My_umeniya.db",

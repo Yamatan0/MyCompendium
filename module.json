@@ -1,12 +1,12 @@
 {
 	"name": "my-compendium",
-	"title": "MyCompendium",
+	"title": "my-compendium",
 	"description": "For easy game",
 	"systems": ["dnd5e"],
 	"author": "Yamatan0kokh",
 	"authors": [{
 		"name": "Yamatan0",
-		"url": "https://none",
+		"url": "https://github.com/Yamatan0",
 		"discord": "Yamatan0#5710"
 	}],
 	"manifestPlusVersion": "1.0.0",
@@ -17,33 +17,33 @@
 	"manifest": "https://github.com/Yamatan0/MyCompendium/blob/main/module.json",
 	"download": "https://github.com/Yamatan0/MyCompendium/archive/main.zip",
 	"packs": [{
-			"name": "My_monstry",
+			"name": "my_monstry",
 			"module": "my-compendium",
-			"label": "MyCompendium",
+			"label": "my-compendium",
 			"system": "dnd5e",
 			"path": "./packs/My_monstry.db",
 			"entity": "Actor"
 		},
 		{
-			"name": "My_podklassy",
+			"name": "my_podklassy",
 			"module": "my-compendium",
-			"label": "MyCompendium",
+			"label": "my-compendium",
 			"system": "dnd5e",
 			"path": "./packs/My_podklassy.db",
 			"entity": "Item"
 		},
 		{
-			"name": "My_predmety",
+			"name": "my_predmety",
 			"module": "my-compendium",
-			"label": "MyCompendium",
+			"label": "my-compendium",
 			"system": "dnd5e",
 			"path": "./packs/My_predmety.db",
 			"entity": "Item"
 		},
 		{
-			"name": "My_umeniya",
+			"name": "my_umeniya",
 			"module": "my-compendium",
-			"label": "MyCompendium",
+			"label": "my-compendium",
 			"system": "dnd5e",
 			"path": "./packs/My_umeniya.db",
 			"entity": "Item"

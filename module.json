@@ -4,13 +4,11 @@
 	"description": "For easy game",
 	"systems": ["dnd5e"],
 	"author": "Yamatan0kokh",
-	"authors": [
-			{
-			"name": "Yamatan0",
-			"url": "https://none",
-			"discord": "Yamatan0#5710"
-			}
-	],
+	"authors": [{
+		"name": "Yamatan0",
+		"url": "https://none",
+		"discord": "Yamatan0#5710"
+	}],
 	"manifestPlusVersion": "1.0.0",
 	"version": "1.1.0",
 	"minimumCoreVersion": "0.7.4",
@@ -18,8 +16,7 @@
 	"url": "https://github.com/Yamatan0",
 	"manifest": "https://github.com/Yamatan0/MyCompendium/blob/main/module.json",
 	"download": "https://github.com/Yamatan0/MyCompendium/archive/main.zip",
-	"packs": [
-		{
+	"packs": [{
 			"name": "My_monstry",
 			"module": "My-Compendium",
 			"label": "MyCompendium",
@@ -53,4 +50,3 @@
 		}
 	]
 }
-

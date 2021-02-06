@@ -16,8 +16,8 @@
 	"minimumCoreVersion": "0.7.9",
 	"compatibleCoreVersion": "0.7.9",
 	"url": "",
-	"manifest": "file:///C:/Users/admin/AppData/Local/FoundryVTT/Data/modules/MyCompedium/module_manifest.json",
-	"download": "file:///C:/Users/admin/AppData/Local/FoundryVTT/Data/modules/MyCompedium/MyCompedium.zip",
+	"manifest": "https://github.com/Yamatan0/MyCompendium/blob/main/module.json",
+	"download": "https://github.com/Yamatan0/MyCompendium/archive/main.zip",
 	"packs": [
 		{
 			"name": "My_monstry",

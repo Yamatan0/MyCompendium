@@ -1,67 +1,67 @@
 {
-   "name":"RRItemsTranslationTCE",
-   "title":"RRItemsTranslationTCE",
+   "name":"MyCompendium",
+   "title":"MyCompendium",
    "description":"Данный модуль представляет из себя набор компендиумов с переведенными классами, классовыми и расовыми способностями, чертами и предметами<br/> из основных книг по D&D 5e (PHB, XGE, SCG и другие).<br/><br/>Огромная благодарность пользователям: Лать, ELFA, Vita, Енисей, zubanzub, Salamander, Riverander, Gecko за помощь в составлении этого модуля.",
-   "author":"RandomRules",
+   "author":"RandomRules and Ko",
    "version":"1.2.0",
    "minimumCoreVersion":"0.8.0",
-   "compatibleCoreVersion":"0.8.9",
+   "compatibleCoreVersion":"0.10.0",
   "packs": [
     {
       "name": "cherty-ru",
       "label": "Черты (RU)",
       "path": "packs/cherty-ru.db",
       "entity": "Item",
-      "module": "RRItemsTranslation"
+      "module": "MyCompendium"
     },
     {
       "name": "klassovye-sposobnosti-ru",
       "label": "Классовые Способности (RU)",
       "path": "packs/klassovye-sposobnosti-ru.db",
       "entity": "Item",
-      "module": "RRItemsTranslation"
+      "module": "MyCompendium"
     },
     {
       "name": "klassy-personazhej-ru",
       "label": "Классы Персонажей (RU)",
       "path": "packs/klassy-personazhej-ru.db",
       "entity": "Item",
-      "module": "RRItemsTranslation"
+      "module": "MyCompendium"
     },
     {
       "name": "predmety-ru",
       "label": "Предметы (RU)",
       "path": "packs/predmety-ru.db",
       "entity": "Item",
-      "module": "RRItemsTranslation"
+      "module": "MyCompendium"
     },
     {
       "name": "umeniya-predystorij-ru",
       "label": "Умения Предысторий (RU)",
       "path": "packs/umeniya-predystorij-ru.db",
       "entity": "Item",
-      "module": "RRItemsTranslation"
+      "module": "MyCompendium"
     },
     {
       "name": "zaklinaniya-ru",
       "label": "Заклинания (RU)",
       "path": "packs/zaklinaniya-ru.db",
       "entity": "Item",
-      "module": "RRItemsTranslation"
+      "module": "MyCompendium"
     },
     {
       "name": "vragi",
       "label": "Враги Собственные (RU)",
       "path": "packs/vragi.db",
       "entity": "Actor",
-      "module": "RRItemsTranslation"
+      "module": "MyCompendium"
     },
     {
       "name": "rasovye-sposobnosti-ru",
       "label": "Расовые Способности (RU)",
       "path": "packs/rasovye-sposobnosti-ru.db",
       "entity": "Item",
-      "module": "RRItemsTranslation"
+      "module": "MyCompendium"
     }
   ]
 }

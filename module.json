@@ -1,52 +1,67 @@
 {
-	"name": "my-compendium",
-	"title": "MyCompendium",
-	"description": "For easy game",
-	"systems": ["dnd5e"],
-	"author": "Yamatan0kokh",
-	"authors": [{
-		"name": "Yamatan0",
-		"url": "https://github.com/Yamatan0",
-		"discord": "Yamatan0#5710"
-	}],
-	"manifestPlusVersion": "1.0.0",
-	"version": "1.0.4",
-	"minimumCoreVersion": "0.7.4",
-	"compatibleCoreVersion": "0.7.9",
-	"url": "https://github.com/Yamatan0",
-	"manifest": "https://raw.githubusercontent.com/Yamatan0/MyCompendium/main/module.json",
-	"download": "https://github.com/Yamatan0/MyCompendium/archive/main.zip",
-	"packs": [{
-			"name": "my_monstry",
-			"module": "my-compendium",
-			"label": "my_monstry",
-			"system": "dnd5e",
-			"path": "./packs/my_monstry.db",
-			"entity": "Actor"
-		},
-		{
-			"name": "my_podklassy",
-			"module": "my-compendium",
-			"label": "my_podklassy",
-			"system": "dnd5e",
-			"path": "./packs/my_podklassy.db",
-			"entity": "Item"
-		},
-		{
-			"name": "my_predmety",
-			"module": "my-compendium",
-			"label": "my_predmety",
-			"system": "dnd5e",
-			"path": "./packs/my_predmety.db",
-			"entity": "Item"
-		},
-		{
-			"name": "my_umeniya",
-			"module": "my-compendium",
-			"label": "my_umeniya",
-			"system": "dnd5e",
-			"path": "./packs/my_umeniya.db",
-			"entity": "Item"
-		}
-	]
+   "name":"RRItemsTranslationTCE",
+   "title":"RRItemsTranslationTCE",
+   "description":"Данный модуль представляет из себя набор компендиумов с переведенными классами, классовыми и расовыми способностями, чертами и предметами<br/> из основных книг по D&D 5e (PHB, XGE, SCG и другие).<br/><br/>Огромная благодарность пользователям: Лать, ELFA, Vita, Енисей, zubanzub, Salamander, Riverander, Gecko за помощь в составлении этого модуля.",
+   "author":"RandomRules",
+   "version":"1.2.0",
+   "minimumCoreVersion":"0.8.0",
+   "compatibleCoreVersion":"0.8.9",
+  "packs": [
+    {
+      "name": "cherty-ru",
+      "label": "Черты (RU)",
+      "path": "packs/cherty-ru.db",
+      "entity": "Item",
+      "module": "RRItemsTranslation"
+    },
+    {
+      "name": "klassovye-sposobnosti-ru",
+      "label": "Классовые Способности (RU)",
+      "path": "packs/klassovye-sposobnosti-ru.db",
+      "entity": "Item",
+      "module": "RRItemsTranslation"
+    },
+    {
+      "name": "klassy-personazhej-ru",
+      "label": "Классы Персонажей (RU)",
+      "path": "packs/klassy-personazhej-ru.db",
+      "entity": "Item",
+      "module": "RRItemsTranslation"
+    },
+    {
+      "name": "predmety-ru",
+      "label": "Предметы (RU)",
+      "path": "packs/predmety-ru.db",
+      "entity": "Item",
+      "module": "RRItemsTranslation"
+    },
+    {
+      "name": "umeniya-predystorij-ru",
+      "label": "Умения Предысторий (RU)",
+      "path": "packs/umeniya-predystorij-ru.db",
+      "entity": "Item",
+      "module": "RRItemsTranslation"
+    },
+    {
+      "name": "zaklinaniya-ru",
+      "label": "Заклинания (RU)",
+      "path": "packs/zaklinaniya-ru.db",
+      "entity": "Item",
+      "module": "RRItemsTranslation"
+    },
+    {
+      "name": "vragi",
+      "label": "Враги Собственные (RU)",
+      "path": "packs/vragi.db",
+      "entity": "Actor",
+      "module": "RRItemsTranslation"
+    },
+    {
+      "name": "rasovye-sposobnosti-ru",
+      "label": "Расовые Способности (RU)",
+      "path": "packs/rasovye-sposobnosti-ru.db",
+      "entity": "Item",
+      "module": "RRItemsTranslation"
+    }
+  ]
 }

@@ -1,65 +1,83 @@
 {
    "name":"MyCompendium",
    "title":"MyCompendium",
-   "description":"Данный модуль представляет из себя набор компендиумов с переведенными классами, классовыми и расовыми способностями, чертами и предметами<br/> из основных книг по D&D 5e (PHB, XGE, SCG и другие).<br/><br/>Огромная благодарность пользователям: Лать, ELFA, Vita, Енисей, zubanzub, Salamander, Riverander, Gecko за помощь в составлении этого модуля.",
-   "author":"RandomRules and Ko",
-   "version":"1.2.0",
-   "minimumCoreVersion":"0.8.0",
+   "description":"Компедиумы с классами, классовыми и расовыми способностями, чертами и предметами из основных книг по D&D5e (PHB, XGE, SCG и другие).",
+   "systems": ["dnd5e"],
+   "author":"RandomRules and Yamatan0kokh",
+   "authors": [{
+		"name": "Yamatan0",
+		"url": "https://github.com/Yamatan0",
+		"discord": "Yamatan0#5710"
+   }],
+   "manifestPlusVersion": "1.0.0",
+   "version": "2.0.0",
+   "minimumCoreVersion":"0.9.0",
    "compatibleCoreVersion":"0.10.0",
+   "url": "https://github.com/Yamatan0",
+   "manifest": "https://raw.githubusercontent.com/Yamatan0/MyCompendium/main/module.json",
+   "download": "https://github.com/Yamatan0/MyCompendium/archive/main.zip",
   "packs": [
     {
       "name": "cherty-ru",
       "label": "Черты (RU)",
-      "path": "packs/cherty-ru.db",
+      "system": "dnd5e",
+      "path": "./packs/cherty-ru.db",
       "entity": "Item",
       "module": "MyCompendium"
     },
     {
       "name": "klassovye-sposobnosti-ru",
       "label": "Классовые Способности (RU)",
-      "path": "packs/klassovye-sposobnosti-ru.db",
+      "system": "dnd5e",
+      "path": "./packs/klassovye-sposobnosti-ru.db",
       "entity": "Item",
       "module": "MyCompendium"
     },
     {
       "name": "klassy-personazhej-ru",
       "label": "Классы Персонажей (RU)",
-      "path": "packs/klassy-personazhej-ru.db",
+	"system": "dnd5e",
+      "path": "./packs/klassy-personazhej-ru.db",
       "entity": "Item",
       "module": "MyCompendium"
     },
     {
       "name": "predmety-ru",
       "label": "Предметы (RU)",
-      "path": "packs/predmety-ru.db",
+	"system": "dnd5e",
+      "path": "./packs/predmety-ru.db",
       "entity": "Item",
       "module": "MyCompendium"
     },
     {
       "name": "umeniya-predystorij-ru",
       "label": "Умения Предысторий (RU)",
-      "path": "packs/umeniya-predystorij-ru.db",
+	"system": "dnd5e",
+      "path": "./packs/umeniya-predystorij-ru.db",
       "entity": "Item",
       "module": "MyCompendium"
     },
     {
       "name": "zaklinaniya-ru",
       "label": "Заклинания (RU)",
-      "path": "packs/zaklinaniya-ru.db",
+	"system": "dnd5e",
+      "path": "./packs/zaklinaniya-ru.db",
       "entity": "Item",
       "module": "MyCompendium"
     },
     {
       "name": "vragi",
       "label": "Враги Собственные (RU)",
-      "path": "packs/vragi.db",
+	"system": "dnd5e",
+      "path": "./packs/vragi.db",
       "entity": "Actor",
       "module": "MyCompendium"
     },
     {
       "name": "rasovye-sposobnosti-ru",
       "label": "Расовые Способности (RU)",
-      "path": "packs/rasovye-sposobnosti-ru.db",
+	"system": "dnd5e",
+      "path": "./packs/rasovye-sposobnosti-ru.db",
       "entity": "Item",
       "module": "MyCompendium"
     }
